@@ -10,11 +10,10 @@ import FeaturedTutorials from "./FeaturedTutorials";
 import Subscribe from "./Subscribe";
 import Contact from "./Contact";
 import Footer from "./Footer";
-
 import Login from "./Login";
 import SignUp from "./SignUp";
+import CreatePost from "./CreatePost";
 
-// Existing DEV@Deakin homepage
 function Home() {
   return (
     <>
@@ -38,6 +37,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="/create-post" element={<CreatePost />} />
       </Routes>
 
       <Footer />

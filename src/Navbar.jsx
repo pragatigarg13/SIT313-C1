@@ -15,7 +15,7 @@ function Navbar() {
         className="navbar-search"
       />
 
-      <Link to="#" className="navbar-post">
+      <Link to="/create-post" className="navbar-post">
         Post
       </Link>
 
